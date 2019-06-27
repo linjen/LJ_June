@@ -118,6 +118,35 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Decision_Level__c</fullName>
+        <externalId>false</externalId>
+        <label>Decision Level</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Influence</fullName>
+                    <default>false</default>
+                    <label>Influence</label>
+                </value>
+                <value>
+                    <fullName>Recommend</fullName>
+                    <default>false</default>
+                    <label>Recommend</label>
+                </value>
+                <value>
+                    <fullName>Decide</fullName>
+                    <default>false</default>
+                    <label>Decide</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Department</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
